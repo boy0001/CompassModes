@@ -1,0 +1,15 @@
+#Range decides how far away a player can be tracked from. USE "0" for no range
+range: 512
+# If override is set to true, then it will ignore the user's preference for that map
+multiworld:
+  world:
+    mode: DEFAULT
+    override: false
+  world_nether:
+    mode: DEFAULT
+    override: false
+  world_the_end:
+    mode: DEFAULT
+    override: false
+Players:
+  Notch: RANDOM
